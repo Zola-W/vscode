@@ -58,12 +58,17 @@ shift + cmd + p  // 打开keybingds.json文件。
 ```
 keybings.json添加以下配置，以覆盖系统配置。
 ```
+// Place your key bindings in this file to override the defaults
 [
     { "key": "cmd+1", "command": "workbench.view.explorer" },
     { "key": "cmd+2", "command": "workbench.view.search" }, 
     { "key": "cmd+3", "command": "workbench.view.scm" }, 
     { "key": "cmd+4", "command": "workbench.view.debug" },
+    { "key": "cmd+5", "command": "workbench.view.extensions" },
+    { "key": "cmd+shift+down", "command": "editor.action.copyLinesDownAction" },
+    { "key": "cmd+shift+up", "command": "editor.action.copyLinesUpAction" },
 ]
+
 ```
 4. 在path中安装code命令
 ```
